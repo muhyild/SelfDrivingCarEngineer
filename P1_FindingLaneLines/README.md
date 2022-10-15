@@ -99,7 +99,7 @@ The first way is to say, it is manual by choosing the edge points of the triangl
 
 #### 5. Finding the lines from the edge pixels
 
-After having the edge pixels, it is now time to form the line using these edge pixels. For this purpose the `Hough Trasnform` is used, which was also presented in the course. 
+After having the edge pixels, it is now time to form the line using these edge pixels. For this purpose the `Hough Transform` is used, which was also presented in the course. 
 
 The Hough Transform works as follows:
 * it takes the edge pixels from (x,y) the coordinates of the image space, then it transforms them to Hough space, on which the points are represented as a line. This line represents the image space line which can pass through the points.
