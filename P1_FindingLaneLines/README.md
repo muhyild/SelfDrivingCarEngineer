@@ -199,8 +199,6 @@ And finally it comes to the easiest part that shows the result on the image/vide
     ext_line_image = draw_lines(original_image, ext_lines) # draw the single lines on a blank image
     final_image = weighted_img(ext_line_image, original_image) #combine blank image including the lines with original image
 ```
-### 2. Identify potential shortcomings with your current pipeline
 
-I want to know why I am having traceback error, with the last optional video. I may need help :). I have tried everything but I was not able to find the reason.
 
 
